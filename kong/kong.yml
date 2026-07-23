@@ -415,6 +415,7 @@ services:
             - 127.0.0.1
             - ::1
             - 10.0.0.0/8
+            - fd12:f3c2:e518::/48
           deny: []
 
   ## Protected Dashboard - catch all remaining routes
